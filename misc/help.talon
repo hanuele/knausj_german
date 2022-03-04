@@ -1,0 +1,17 @@
+language: de_DE
+-
+spicker alphabet: user.help_list("user.letter")
+spicker symbole: user.help_list("user.symbol_key")
+spicker nummern: user.help_list("user.number_key")
+spicker satzzeichen: user.help_list("user.punctuation")
+spicker modifikatoren: user.help_list("user.modifier_key")
+spicker spezial [tastan]: user.help_list("user.special_key")
+spicker funktionstasten: user.help_list("user.function_key")
+spicker pfeile: user.help_list("user.arrow_key")
+spicker formate : user.help_formatters(user.get_formatters_words())
+spicker kontext$: user.help_context()
+spicker aktiv$: user.help_context_enabled()
+spicker suche <user.text>$: user.help_search(text)
+spicker kontext {user.help_contexts}$: user.help_selected_context(help_contexts)
+spicker hilfe: user.help_search("help")
+spicker fokus$: user.help_scope_toggle()

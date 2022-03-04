@@ -1,17 +1,10 @@
 from talon import Context, Module, actions, app, ui
 
 mod = Module()
-mod.setting("german_unicode",
-			type=int,
-			default=1,
-			desc="Enable proper unicode punctuation")
-
 ctx = Context()
 ctx.matches = r"""
 language: de_DE
 """
-
-
 
 
 # The primitive ordinal words in German below a hundred.
@@ -75,25 +68,16 @@ for n in range(1, 100):
         ordinal_small[word] = n
     ordinal_numbers[word] = n
 
-
-mod.list("ordinals", desc="list of ordinals")
-mod.list("ordinals_small", desc="list of ordinals small (1-20)")
-
 ctx.lists["self.ordinals"] = ordinal_numbers.keys()
 ctx.lists["self.ordinals_small"] = ordinal_small.keys()
 
-@mod.capture
-def ordinals() -> int:
-    """Returns a single ordinal as a digit"""
     
 @ctx.capture("user.ordinals", rule="{self.ordinals}")
 def ordinals(m) -> int:
-    return int(ordinal_numbers[m[0]])
-
-@mod.capture
-def ordinals_small() -> int:
     """Returns a single ordinal as a digit"""
+    return int(ordinal_numbers[m[0]])
 
 @ctx.capture("user.ordinals_small", rule="{self.ordinals_small}")
 def ordinals_small(m) -> int:
+    """Returns a single ordinal as a digit"""
     return int(ordinal_numbers[m[0]])
