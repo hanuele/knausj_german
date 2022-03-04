@@ -1,9 +1,8 @@
 # Descended from https://github.com/dwiel/talon_community/blob/master/misc/dictation.py
 #German: As we have to change some methods originating from knausj, a bunch of auxiliry methods are copy pasted yet.
 
-
-from talon import Module, Context, ui, actions, clip, app, grammar
-from typing import Optional, Tuple, Literal, Callable
+from talon import Module, Context, ui, actions, grammar
+from typing import Callable
 import re
 import os
 
