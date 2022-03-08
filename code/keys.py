@@ -9,10 +9,10 @@ language: de_DE
 """
 
 #German: Just trying to find my way here ;-)
-default_alphabet = "alf ära bett cello din edi edach fell grunz horst ida jass kilo lidl mett nova oskar öko papa quer rom satt tes tango ulk büsi vik wolf kena yak zoll".split(
+default_alphabet = "alf ära bett cello dex edi edach fell grunz horst ida jass kilo lidl mett nova oskar öko papa quer rom satt tes tango ulk tür lava wolf xena yak zoll".split(
     " "
 )
-letters_string = "aäbcdeéfghijklmnoöpqrsß11tuüvwxyz"
+letters_string = "aäbcdeéfghijklmnoöpqrsßtuüvwxyz"
 
 default_digits = "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf".split(" ")
 numbers = [str(i) for i in range(10)]
