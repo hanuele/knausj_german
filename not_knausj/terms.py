@@ -22,6 +22,7 @@ terms_dict = {
     "PASTE" : "falle",
     "END" : "ende",
     "START" : "start",
+    "NAVIGATE" : "lotse"
 }
 ctx.lists["self.terms"] = terms_dict
 
@@ -83,4 +84,9 @@ def end(m) -> str:
 @ctx.capture("user.start",rule=terms_dict["START"])
 def start(m) -> str:
     """Word to use for position start"""
+    return str(m)
+
+@ctx.capture("user.navigate",rule=terms_dict["NAVIGATE"])
+def navigate(m) -> str:
+    """Verb to use for navigating"""
     return str(m)
