@@ -1,15 +1,15 @@
 language: de_DE
 -
 
-datum einfügen:
+datum <user.term_paste>:
     insert(user.time_format("%Y-%m-%d"))
-UTC datum einfügen:
+UTC datum <user.term_paste>:
     insert(user.time_format_utc("%Y-%m-%d"))
-zeitstempel einfügen:
+zeitstempel <user.term_paste>:
     insert(user.time_format("%Y-%m-%d %H:%M:%S"))
-hochaufgelösten zeitstempel einfügen:
+hochaufgelösten zeitstempel <user.term_paste>:
     insert(user.time_format("%Y-%m-%d %H:%M:%S.%f"))
-UTC zeitstempel einfügen:
+UTC zeitstempel <user.term_paste>:
     insert(user.time_format_utc("%Y-%m-%d %H:%M:%S"))
-hochaufgelösten UTC zeitstempel einfügen:
+hochaufgelösten UTC zeitstempel <user.term_paste>:
     insert(user.time_format_utc("%Y-%m-%d %H:%M:%S.%f"))

@@ -67,7 +67,7 @@ alles speichern: edit.save_all()
 	edit.redo()
 	user.quick_macro_set("edit.redo")
 
-(weg|müll): 
+<user.term_delete>: 
 	key(backspace)
 	user.quick_macro_set("key","backspace")
 
