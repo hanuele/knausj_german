@@ -25,34 +25,34 @@ seite runter:
 	key(pgdown)
 	user.quick_macro_set("key","pgdown")
 
-<user.copy> <user.end>:
+<user.term_copy> <user.term_end>:
 	edit.extend_line_end()
 	edit.copy()
 	user.quick_macro_set("edit.paste")
 
-<user.copy> <user.start>:
+<user.term_copy> <user.term_start>:
 	edit.extend_line_start()
 	edit.copy()
 	user.quick_macro_set("edit.paste")
 		
-<user.copy>: 
+<user.term_copy>: 
 	edit.copy()
 	user.quick_macro_set("edit.paste")
 
-<user.copy> alles:
+<user.term_copy> alles:
     edit.select_all()
     edit.copy()
     user.quick_macro_set("edit.paste")
 
-<user.cut>: 
+<user.term_cut>: 
 	edit.cut()
 	user.quick_macro_set("edit.paste")
 
-<user.paste>: 
+<user.term_paste>: 
 	edit.paste()
 	user.quick_macro_set("edit.paste")
 
-<user.paste> formattiert: 
+<user.term_paste> formattiert: 
 	edit.paste_match_style()
 	user.quick_macro_set("edit.paste_match_style")
 

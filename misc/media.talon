@@ -5,6 +5,6 @@ leiser: key(voldown)
 #lautstärke auf <number>: user.media_set_volume(number)
 
 stummstellen: key(mute)
-nächstes Lied: key(next)
-letztes lied: key(prev)
+lied <user.term_navigate_right>: key(next)
+lied <user.term_navigate_left>: key(prev)
 (play|pause): user.play_pause()
