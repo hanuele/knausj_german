@@ -60,7 +60,7 @@ punctuation_words = {
  	"klammer affe":     "@",
     "schund":	   		"&",
     "schwebe strich":   "-",
-    "gedanken strich":   "–",
+    "gedanken strich":  "–",
     "lieg strich":      "_",
     "pflug":       		"\\",
     "zitat":            '„',
@@ -77,12 +77,12 @@ punctuation_words = {
 }
 symbol_key_words = {
     
-    "einfach text": "'",
+    "einfach text":         "'",
     "minus": 				"-",
     "plus": 				"+",
     "prozent":		 		"%",
     "pipe": 				"|",
-    "text":	'"',
+    "text":	                '"',
 	"leerzeichen":          " ", 
 	"blank":                " ",
 	"punkt":                ".",
@@ -95,7 +95,7 @@ symbol_key_words = {
 	"bindestrich": 			"-",
 	"gedankenstrich": 		"–",
 	"unterstrich": 			"_",
-	"slash": 		"/",
+	"slash": 		        "/",
 	"backslash": 			"\\",
 	"pipe": 				"|",
 	"zitat": 				'„',
