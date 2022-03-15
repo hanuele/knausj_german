@@ -21,9 +21,9 @@ ctx.lists["self.navigation_action"] = {
     "bewegen": "GO",
     "erweitern": "EXTEND",
     "nimm": "SELECT",
-    "kratz": "DELETE",
+    "(wisch|müll|löschen)": "DELETE",
     "schneide": "CUT",
-    "lade": "COPY",
+    "(merke|lade)": "COPY",
 }
 ctx.lists["self.before_or_after"] = {
     "bevor": "BEFORE",

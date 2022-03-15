@@ -1,14 +1,14 @@
 language: de_DE
 -
 #provide both anchored and unachored commands via 'over'
-<user.term_sentence> <user.text>$: user.insert_formatted(text, "NOOP")
-<user.term_sentence> <user.text> über: user.insert_formatted(text, "NOOP")
+sag <user.text>$: user.insert_formatted(text, "NOOP")
+sag <user.text> über: user.insert_formatted(text, "NOOP")
 {user.prose_formatter} <user.prose>$: user.insert_formatted(prose, prose_formatter)
 {user.prose_formatter} <user.prose> über: user.insert_formatted(prose, prose_formatter)
 <user.format_text>+$: user.insert_many(format_text_list)
 <user.format_text>+ über: user.insert_many(format_text_list)
 <user.formatters> das: user.formatters_reformat_selection(user.formatters)
-<user.term_word_navigate> <user.word>: user.insert_formatted(user.word, "NOOP")
+wort <user.word>: user.insert_formatted(user.word, "NOOP")
 gerade eben <user.term_show_list>: user.toggle_phrase_history()
 gerade eben schliessen: user.phrase_history_hide()
 gerade eben wiederholen <number_small>: insert(user.get_recent_phrase(number_small))

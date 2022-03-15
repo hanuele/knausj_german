@@ -148,7 +148,7 @@ formatters_words = {
     "verbinden": formatters_dict["SNAKE_CASE"],
     "zeichen": formatters_dict["SINGLE_QUOTED_STRING"],
     "titel": formatters_dict["CAPITALIZE_ALL_WORDS"],
-    "satz": formatters_dict["CAPITALIZE_FIRST_WORD"],
+    "satzanfang": formatters_dict["CAPITALIZE_FIRST_WORD"],
 }
 
 all_formatters = {}

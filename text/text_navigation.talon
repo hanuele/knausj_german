@@ -8,9 +8,9 @@ language: de_DE
 	user.navigation(navigation_action or "GO", arrow_key or "RIGHT", navigation_target_name or "DEFAULT", before_or_after or "DEFAULT", navigation_target, ordinals or 1)
 
 # The functionality for all these commands is covered in the lines above, but these commands are kept here for convenience. Originally from word_selection.talon.  
-#<user.term_word_navigate> <user.navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "word", number_small or 1)
-#<user.term_word_navigate> <user.navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "word", number_small or 1)
-halb <user.term_word_navigate> <user.navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "small", number_small or 1)
-halb <user.term_word_navigate> <user.navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "small", number_small or 1)
-voll <user.term_word_navigate> <user.navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "big", number_small or 1)
-voll <user.term_word_navigate> <user.navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "big", number_small or 1)
+#<user.term_word_navigate> <user.term_navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "word", number_small or 1)
+#<user.term_word_navigate> <user.term_navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "word", number_small or 1)
+halb <user.term_word_navigate> <user.term_navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "small", number_small or 1)
+halb <user.term_word_navigate> <user.term_navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "small", number_small or 1)
+voll <user.term_word_navigate> <user.term_navigate_right> [<number_small>]: user.navigation_by_name("SELECT", "RIGHT", "DEFAULT", "big", number_small or 1)
+voll <user.term_word_navigate> <user.term_navigate_left> [<number_small>]: user.navigation_by_name("SELECT", "LEFT", "DEFAULT", "big", number_small or 1)
