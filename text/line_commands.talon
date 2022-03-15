@@ -1,4 +1,5 @@
 tag: user.line_commands
+language: de_DE
 -
 #this defines some common line commands. More may be defined that are ide-specific.
 [zeilen] ende: edit.line_end()

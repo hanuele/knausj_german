@@ -24,8 +24,8 @@ terms_dict = {
     "START" : "start",
     "NAVIGATE" : "grunz",
     "WORD_NAVIGATE" : "ding",
-    "NAVIGATE_LEFT" : "zurück",
-    "NAVIGATE_RIGHT" : "vor",
+    "NAVIGATE_LEFT" : "(zurück|links)",
+    "NAVIGATE_RIGHT" : "(vor|rechts)",
     "SENTENCE" : "satz",
     "DESKTOP" : "(tisch|[bild] schirm)",
 }
