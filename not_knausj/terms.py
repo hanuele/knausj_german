@@ -22,12 +22,13 @@ terms_dict = {
     "PASTE" : "(einfügen|füge|ersetzen)",
     "END" : "ende",
     "START" : "start",
-    "NAVIGATE" : "grunz",
-    "WORD_NAVIGATE" : "ding",
-    "NAVIGATE_LEFT" : "(zurück|links)",
-    "NAVIGATE_RIGHT" : "(vor|rechts)",
-    "SENTENCE" : "satz",
+    "NAVIGATE" : "flieg",
+    "WORD_NAVIGATE" : "(ding|wort)",
+    "NAVIGATE_LEFT" : "(letztes|zurück)",
+    "NAVIGATE_RIGHT" : "(nächstes|vor)",
+    "SENTENCE" : "(satz|sag)",
     "DESKTOP" : "(tisch|[bild] schirm)",
+    "GO" : "(gehe [zu]|[auf] zu|[auf] zum|[auf] zur)",
 }
 ctx.lists["self.terms"] = terms_dict
 
@@ -152,4 +153,11 @@ def term_desktop() -> str:
     """Word to use to for desktop"""
 @ctx.capture("user.term_desktop",rule=terms_dict["DESKTOP"])
 def term_desktop(m) -> str:
+    return str(m)
+
+@mod.capture
+def term_go() -> str:
+    """Verb to use for go to"""
+@ctx.capture("user.term_go",rule=terms_dict["GO"])
+def term_go(m) -> str:
     return str(m)

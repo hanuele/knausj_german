@@ -17,6 +17,7 @@ grossbuchstaben: user.dictation_format_cap()
 # Hyphenated variants are for Dragon.
 kleinbuchstaben: user.dictation_format_no_cap()
 keine leerzeichen: user.dictation_format_no_space()
+#TODO replace terms
 
 # Navigations
 geh <number_small> (zeilen|zeile) hoch:

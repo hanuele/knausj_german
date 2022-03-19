@@ -1,7 +1,7 @@
 language: de_DE
 -
 
-gehe <user.arrow_keys>: user.move_cursor(arrow_keys)
+<user.term_go> <user.arrow_keys>: user.move_cursor(arrow_keys)
 <user.letter>: key(letter)
 (steige | großschrift) <user.letters> [(kleinschrift | sinke)]: 
         user.insert_formatted(letters, "ALL_CAPS")
