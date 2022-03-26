@@ -15,20 +15,23 @@ terms_dict = {
     "TELEPORT" : "pop",
     "OPERATOR" : "mach",
     "DELETE" : "(wisch|müll|löschen)",
-    "FIND" : "suche",
+    "FIND" : "(suche|suchen)",
     "SHOW_LIST" : "liste",
     "COPY" : "(merke|lade|merken|laden)",
     "CUT" : "(schneide|ausschneiden)",
     "PASTE" : "(einfügen|füge|ersetzen)",
     "END" : "ende",
     "START" : "start",
-    "NAVIGATE" : "flieg",
+    "NAVIGATE" : "(flieg|spähe)",
     "WORD_NAVIGATE" : "(ding|wort)",
     "NAVIGATE_LEFT" : "(letztes|zurück)",
     "NAVIGATE_RIGHT" : "(nächstes|vor)",
     "SENTENCE" : "(satz|sag)",
     "DESKTOP" : "(tisch|[bild] schirm)",
     "GO" : "(gehe [zu]|[auf] zu|[auf] zum|[auf] zur)",
+    "CLIPBOARD" : "klipp",
+    "SAVE" : "(speichern|platte)",
+    "LEFTMOST" : "(anfang|alfa)", 
 }
 ctx.lists["self.terms"] = terms_dict
 
@@ -160,4 +163,26 @@ def term_go() -> str:
     """Verb to use for go to"""
 @ctx.capture("user.term_go",rule=terms_dict["GO"])
 def term_go(m) -> str:
+    return str(m)
+
+
+@mod.capture
+def term_clipboard() -> str:
+    """Word to use to for clipboard"""   
+@ctx.capture("user.term_clipboard",rule=terms_dict["CLIPBOARD"])
+def term_clipboard(m) -> str: 
+    return str(m)
+
+@mod.capture
+def term_save() -> str:
+    """Verb to use for saving"""
+@ctx.capture("user.term_save",rule=terms_dict["SAVE"])
+def term_save(m) -> str:
+    return str(m)
+
+@mod.capture
+def term_leftmost() -> str:
+    """Word to use for leftmost position"""
+@ctx.capture("user.term_leftmost",rule=terms_dict["LEFTMOST"])
+def term_leftmost(m) -> str:
     return str(m)

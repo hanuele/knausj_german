@@ -39,7 +39,7 @@ running close: user.switcher_hide_running()
 visible close: user.switcher_hide_visible()
 launch <user.launch_applications>: user.switcher_launch(launch_applications)
 
-snap <user.window_snap_position>: user.snap_window(window_snap_position)
+schnapp <user.window_snap_position>: user.snap_window(window_snap_position)
 #snap next [screen]: user.move_window_next_screen()n
 #snap last [screen]: user.move_window_previous_screen()
 #snap screen <number>: user.move_window_to_screen(nnumber)

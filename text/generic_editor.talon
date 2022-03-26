@@ -9,9 +9,13 @@ language: de_DE
     edit.find(edit.selected_text())
     user.quick_macro_set("edit.find_next")
 
-<user.term_find> nächste:
+<user.term_find> <user.term_navigate_right>:
     edit.find_next()
     user.quick_macro_set("edit.find_next")
+
+<user.term_find> <user.term_navigate_left>:
+    edit.find_previous()
+    user.quick_macro_set("edit.find_previous")
 
 spring <user.term_word_navigate> <user.term_navigate_left>:
     edit.word_left()
