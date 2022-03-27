@@ -4,18 +4,19 @@ language: de_DE
 -
 #TODO
 
-(window open|Fenster öffnen): app.window_open()
-(window next|nächstes Fenster): app.window_next()
-(window last|vorheriges Fenster): app.window_previous()
-(window close|Fenster schliessen): app.window_close()
 
-(minimize | mini): 
+Fenster öffnen: app.window_open()
+nächstes Fenster: app.window_next()
+vorheriges Fenster: app.window_previous()
+Fenster schliessen: app.window_close()
+
+minimieren: 
     key(alt-space)
     sleep(0.1)
     key(n)
 
     #app.window_hide()
-(maximize | maxi): 
+maximieren: 
     key(alt-space)
     sleep(0.1)
     key(x)    
@@ -26,23 +27,23 @@ normal:
     sleep(0.1)
     key(r)
 
-focus <user.running_applications> [<phrase>]$:
+fokus <user.running_applications> [<phrase>]$:
     user.switcher_focus(running_applications)
     sleep(200ms)
     user.parse_phrase(phrase or "")
 
 # following only works on windows. Can't figure out how to make it work for mac. No idea what the equivalent for linux would be.
-focus$: user.switcher_menu()
-running list: user.switcher_toggle_running()
-visible list: user.switcher_toggle_visible()
-running close: user.switcher_hide_running()
-visible close: user.switcher_hide_visible()
-launch <user.launch_applications>: user.switcher_launch(launch_applications)
+fokus$: user.switcher_menu()
+laufende liste: user.switcher_toggle_running()
+sichtbare liste: user.switcher_toggle_visible()
+laufende schliessen: user.switcher_hide_running()
+sichtbare schliessen: user.switcher_hide_visible()
+starte <user.launch_applications>: user.switcher_launch(launch_applications)
 
 schnapp <user.window_snap_position>: user.snap_window(window_snap_position)
-#snap next [screen]: user.move_window_next_screen()n
+#snap next [screen]: user.move_window_next_screen()
 #snap last [screen]: user.move_window_previous_screen()
-#snap screen <number>: user.move_window_to_screen(nnumber)
+#snap screen <number>: user.move_window_to_screen(number)
 #snap <user.running_applications> <user.window_snap_position>:
 #    user.snap_app(running_applications, window_snap_position)
 #snap <user.running_applications> [screen] <number>:

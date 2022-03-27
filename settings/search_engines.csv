@@ -1,0 +1,11 @@
+URL Template,Name
+
+https://www.amazon.de/s/?field-keywords=%s,amazon
+
+https://www.google.de/search?q=%s,google
+
+https://maps.google.de/maps?q=%s,map
+
+https://scholar.google.de/scholar?q=%s,scholar
+
+https://de.wikipedia.org/w/index.php?search=%s,wiki

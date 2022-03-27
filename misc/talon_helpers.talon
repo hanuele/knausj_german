@@ -1,62 +1,62 @@
 language: de_DE
 -
-#TODO
-talon check updates: menu.check_for_updates()
-talon open log: menu.open_log()
-talon open rebel: menu.open_repl()
+
+talon [überprüfe] updates: menu.check_for_updates()
+talon öffne log: menu.open_log()
+talon öffne rebel: menu.open_repl()
 talon home: menu.open_talon_home()
-talon copy context pie: user.talon_add_context_clipboard_python()
-talon copy context: user.talon_add_context_clipboard()
-talon copy name:
+talon <user.term_copy> kontext python: user.talon_add_context_clipboard_python()
+talon <user.term_copy> kontext: user.talon_add_context_clipboard()
+talon <user.term_copy> applikationsname:
     name = app.name()
     clip.set_text(name)  
-talon copy executable:
+talon <user.term_copy> echse:
     executable = app.executable()
     clip.set_text(executable)
-talon copy bundle:
+talon <user.term_copy> bandel:
     bundle = app.bundle()
     clip.set_text(bundle)
-talon copy title: 
+talon <user.term_copy> [fenster] titel: 
     title = win.title()
     clip.set_text(title)
-talon dump version: 
+talon drucke version: 
     result = user.talon_version_info()
     print(result)
-talon insert version: 
+talon <user.term_paste> version: 
     result = user.talon_version_info()
     user.paste(result)
-talon dump context: 
+talon <user.term_paste> kontext: 
     result = user.talon_get_active_context()
     print(result)
-^talon test last$:
+^talon test <user.term_navigate_left>$:
     phrase = user.history_get(1)
     user.talon_sim_phrase(phrase)
-^talon test numb <number_small>$:
+^talon test nummer <number_small>$:
     phrase = user.history_get(number_small)
     user.talon_sim_phrase(phrase)
 ^talon test <phrase>$:
     user.talon_sim_phrase(phrase)
-^talon debug action {user.talon_actions}$: 
+^talon debugge aktion {user.talon_actions}$: 
     user.talon_action_find("{user.talon_actions}")
-^talon debug list {user.talon_lists}$:
+^talon debugge liste {user.talon_lists}$:
     user.talon_debug_list(talon_lists)
-^talon copy list {user.talon_lists}$:
+^talon <user.term_copy> list {user.talon_lists}$:
     user.talon_copy_list(talon_lists)
-^talon debug tags$:
+^talon debugge tags$:
     user.talon_debug_tags()
-^talon debug modes$:
+^talon debugge modi$:
     user.talon_debug_modes()
-^talon debug scope {user.talon_scopes}$:
+^talon debugge bereich {user.talon_scopes}$:
     user.talon_debug_scope(talon_scopes)
-^talon debug setting {user.talon_settings}$:
+^talon debug einestellung {user.talon_settings}$:
     user.talon_debug_setting(talon_settings)
-^talon debug all settings$: 
+^talon debugge alle einstellungen$: 
     user.talon_debug_all_settings()
-^talon debug active app$: 
+^talon debugge aktive applikation$: 
     result = user.talon_get_active_application_info()
     print("**** Dumping active application **** ")
     print(result)
     print("***********************")
-^talon copy active app$:
+^talon <user.term_copy> aktive applikation$:
     result = user.talon_get_active_application_info()
     clip.set_text(result)
