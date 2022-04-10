@@ -25,12 +25,11 @@ website_defaults = {
 _search_engine_defaults = {
     "amazon": "https://www.amazon.de/s/?field-keywords=%s",
     "google": "https://www.google.de/search?q=%s",
-    "map": "https://maps.google.com/maps?q=%s",
-    "scholar": "https://scholar.google.com/scholar?q=%s",
+    "karte": "https://maps.google.com/maps?q=%s",
+    "schule": "https://scholar.google.com/scholar?q=%s",
     "wiki": "https://de.wikipedia.org/w/index.php?search=%s",
 }
 
-ctx = Context()
 ctx.lists["self.website"] = get_list_from_csv(
     "websites.csv",
     headers=("URL", "Spoken name"),

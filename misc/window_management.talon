@@ -41,22 +41,22 @@ sichtbare schliessen: user.switcher_hide_visible()
 starte <user.launch_applications>: user.switcher_launch(launch_applications)
 
 schnapp <user.window_snap_position>: user.snap_window(window_snap_position)
-#snap next [screen]: user.move_window_next_screen()
-#snap last [screen]: user.move_window_previous_screen()
-#snap screen <number>: user.move_window_to_screen(number)
-#snap <user.running_applications> <user.window_snap_position>:
-#    user.snap_app(running_applications, window_snap_position)
-#snap <user.running_applications> [screen] <number>:
-#    user.move_app_to_screen(running_applications, number)
+schnapp <user.term_navigate_right> [schirm]: user.move_window_next_screen()
+schnapp <user.term_navigate_left> [schirm]: user.move_window_move_window_previous_screen()
+schnapp schirm <number>: user.move_window_to_screen(number)
+schnapp <user.running_applications> <user.window_snap_position>:
+    user.snap_app(running_applications, window_snap_position)
+schnapp <user.running_applications> [schirm] <number>:
+    user.move_app_to_screen(running_applications, number)
 
-#snap <number> <user.window_snap_position>: 
-#    user.move_window_to_screen(number)
-#    sleep(0.5)
-#    user.snap_window(window_snap_position)
-#n
-#target <number> <user.window_snap_position>: 
-#    user.move_cursor_to_snap_position_center(number, window_snap_position)
-#    mouse_click(0)
+schnapp <number> <user.window_snap_position>: 
+    user.move_window_to_screen(number)
+    sleep(0.5)
+    user.snap_window(window_snap_position)
+
+ziel <number> <user.window_snap_position>: 
+    user.move_cursor_to_snap_position_center(number, window_snap_position)
+    mouse_click(0)
 
 westen:
     key(super-right)
