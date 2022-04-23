@@ -1,0 +1,86 @@
+URL,Spoken name
+https://dev.3txpert.com/ndxsync/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,sync dev
+https://nxfapp130v.nordex-ag.com/clsync/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,sync qa
+https://crossloomsync.nordex-ag.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,sync prod
+https://dev.3txpert.com/wiam/view/app/26a46029-96c2-4ca3-80fd-b32d8ab62af4/object/,umt dev
+https://nxfapp130v.nordex-ag.com/wiam/view/app/26a46029-96c2-4ca3-80fd-b32d8ab62af4/object/,umt qa
+https://wiam-int.nordex-ag.com/view/app/26a46029-96c2-4ca3-80fd-b32d8ab62af4/object/,umt int
+https://wiam.nordex-ag.com/view/app/26a46029-96c2-4ca3-80fd-b32d8ab62af4/object/,umt prod
+https://nxdev.3txpert.com/wasp/view/app/19caefee-c262-401c-b1f6-f7442d4f6606/object/,wasp dev
+https://waspqa.nordex-online.com/view/app/19caefee-c262-401c-b1f6-f7442d4f6606/object/,wasp qa
+https://wasp.nordex-online.com/view/app/19caefee-c262-401c-b1f6-f7442d4f6606/object/,wasp prod
+https://dev.3txpert.com/wiam/view/app/dadfd4b6-7c23-4470-9b13-c8663e04c20a/object/,wiam dev
+https://nxfapp130v.nordex-ag.com/wiam/view/app/dadfd4b6-7c23-4470-9b13-c8663e04c20a/object/,wiam qa
+https://wiam-int.nordex-ag.com/view/app/2251c0e2-73da-4b44-9672-19a27e19d333/object/,wiam int
+https://wiam.nordex-ag.com/view/app/dadfd4b6-7c23-4470-9b13-c8663e04c20a/object/,wiam prod
+https://nordex-wiam.crossloom.com/view/app/dadfd4b6-7c23-4470-9b13-c8663e04c20a/object/,wiam emergency
+https://dev.3txpert.com/wiam/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wiam dev
+https://nxfapp130v.nordex-ag.com/wiam/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wiam qa
+https://wiam.nordex-ag.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wiam prod
+https://nordex-wiam.crossloom.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wiam emergency
+https://wiam-int.nordex-ag.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wiam int
+https://dev.3txpert.com/ndxsync/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom sync dev
+https://nxfapp130v.nordex-ag.com/clsync/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom sync qa
+https://crossloomsync.nordex-ag.com/view/app/2251c0e2-73da-4b44-9672-19a27e19d333/object/,crossloom sync prod
+https://nxdev.3txpert.com/wasp/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wasp dev
+https://waspqa.nordex-online.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wasp qa
+https://wasp.nordex-online.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom wasp prod
+https://clp01.3txpert.com/supportserver/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom support server dev
+https://dev.3txpert.com/supportserver/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom support server qa
+https://supportserver.nordex-online.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom support server prod
+https://dev.3txpert.com/metaverse/view/app/cc7d10ae-2986-4cbe-886b-c0266140e183/object/,nx apps dev
+https://dev.3txpert.com/metaverse/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom metaverse dev
+https://dev.3txpert.com/metaverse/view/app/ad060aa8-451e-4592-80ef-be97a4090e0d/object/,tas dev
+https://dev.3txpert.com/metaverse/view/app/706364f3-971a-44f0-acba-5720d5ef64ad/object/,wea control dev
+https://clp02.3txpert.com/dev02/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom protools dev
+https://de.3txpert.com/3Tprod/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom protools prod
+https://de.3txpert.com/3Tprod/view/app/fc6d4dc4-bc94-49ab-ae59-1803b739b9a1/object/,project prod
+https://de.3txpert.com/3Tprod/view/app/aeef5983-a1df-4277-980e-dde51dc40c44/object/,pro plan prod
+https://de.3txpert.com/3Tprod/view/app/0b55acf8-1507-408f-8bf0-be1c20eb43a4/object/,pro task prod
+https://de.3txpert.com/3Tprod/view/app/73f89179-ef9e-47c4-b090-17eca4f14e4a/object/,pro time prod
+https://clp02.3txpert.com/dev02/view/app/b13f0343-a1d0-403a-92c2-d60a4596cada/object/,sharepoint self service dev
+https://clp01.3txpert.com/i40/view/app/d3f63603-89a2-4049-8ee3-23ba94930190/object/,industry four dot zero dev
+https://dev.3txpert.com/siam/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom catalog dev
+https://dev.3txpert.com/siam/view/app/d16e64ba-2b9c-444a-832f-18725b5a04bb/object/,catalog dev
+https://de.3txpert.com/SIAM3T/view/app/d16e64ba-2b9c-444a-832f-18725b5a04bb/object/,catalog prod
+https://de.3txpert.com/SIAM3T/view/app/e273a7c3-ecdb-4c71-9c62-143a318f134e/object/,forms dev
+https://clp02.3txpert.com/sdk_en/view/app/d268fc5b-12a5-4251-8291-40746705919d/object/,knowledge base dev
+https://kb.crossloom.com/view/app/984254af-5199-43cc-a00b-96bc16d385c8/object/,knowledge base prod
+https://de.3txpert.com/SIAM3T/view/app/984254af-5199-43cc-a00b-96bc16d385c8/object/,private knowledge base dev
+https://de.3txpert.com/SIAM3T/view/app/94ab89eb-fe31-4862-a7e8-969e57e50a30/object/,private knowledge base admin dev
+https://de.3txpert.com/SIAM3T/view/app/f01cd5a8-c0c0-4149-8cfc-cfef8e52e650/object/,password safe
+https://de.3txpert.com/SIAM3T/view/app/dd5b44c8-22de-4287-9fe6-b68d1e599b7a/object/,product lifecycle prod
+https://dev.3txpert.com/pze/view/app/06c57dcb-df61-42d2-ad1e-6e1c5e17c6bf/object/,crossloom earth dev
+https://nxawpapps.nordex-ag.com/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom a wee p apps prod
+https://dev.3txpert.com/nxawpapps/view/app/4ff94617-7d12-4c73-9871-e028ea1bfeb6/object/,identity lifecycle management dev
+https://nxawpapps.nordex-ag.com/view/app/4ff94617-7d12-4c73-9871-e028ea1bfeb6/object/,identity lifecycle management prod
+https://dev.3txpert.com/nxawpapps/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom identity lifecycle management dev
+https://nxawpapps.nordex-ag.com/view/app/2b37c61c-b9a1-4e19-82e2-b72e0ef2a906/object/,sap user request prod
+https://nxawpapps.nordex-ag.com/view/app/ed6a29e5-3334-44e1-b427-ea696960e4c3/object/,sap user request self service prod
+https://clp02.3txpert.com/siam/view/app/2251c0e2-73da-4b44-9672-19a27e19d333/object/,code base dev
+https://clp03.3txpert.com/dev02/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom pump dev
+https://clp03.3txpert.com/dev02/view/app/36717322-a61b-41b5-946a-4b5067c3d5b0/object/,pump dashboard dev
+https://clp03.3txpert.com/dev02/view/app/bb361990-85d4-420c-abdc-c6533f6f2395/object/,pump admin dev
+https://clp03.3txpert.com/dev02/view/app/c77a94ff-d2fb-4e2d-bff2-fe201d55eec1/object/,pump customer service dev
+https://renasysportal.3txpert.com/NPWTQA/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom pump qa
+https://renasysportal.3txpert.com/NPWTQA/view/app/36717322-a61b-41b5-946a-4b5067c3d5b0/object/,pump dashboard qa
+https://renasysportal.3txpert.com/NPWTQA/view/app/bb361990-85d4-420c-abdc-c6533f6f2395/object/,pump admin qa
+https://renasysportal.3txpert.com/NPWTQA/view/app/c77a94ff-d2fb-4e2d-bff2-fe201d55eec1/object/,pump customer service qa
+https://renasysportal.3txpert.com/NPWT/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom pump prod
+https://renasysportal.3txpert.com/NPWT/view/app/36717322-a61b-41b5-946a-4b5067c3d5b0/object/,pump dashboard prod
+https://renasysportal.3txpert.com/NPWT/view/app/bb361990-85d4-420c-abdc-c6533f6f2395/object/,pump admin prod
+https://renasysportal.3txpert.com/NPWT/view/app/c77a94ff-d2fb-4e2d-bff2-fe201d55eec1/object/,pump customer service prod
+https://dev.3txpert.com/metaverse/view/app/2251c0e2-73da-4b44-9672-19a27e19d333/object/,crossloom metaverse dev
+https://devwsccaf01.uma-soft.ch/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom biz africa dev
+https://devwscceu01.uma-soft.ch/view/app/f9614385-a93f-4389-883c-f435c776d37a/object/,biz portal dev
+https://devwscceu01.uma-soft.ch/view/app/2ae7bb33-321b-4199-804b-51d2174a4830/object/,biz account dev
+https://devwscceu01.uma-soft.ch/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom biz dev
+https://devwsccadm.uma-soft.ch/view/app/77ea0ab3-54d3-48ee-b41a-2aeed6ca638b/object/,biz admin dev
+https://devwsccadm.uma-soft.ch/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom biz admin dev
+https://devwsccsd.uma-soft.ch/view/app/3dd545f6-9e8f-4a78-b579-19fb4a9d73d7/object/,biz statistic dev
+https://devwsccsd.uma-soft.ch/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom biz statistic dev
+https://devwsccld.uma-soft.ch/view/app/a808c78b-475e-4871-94f2-a970aa33413e/object/,biz registration dev
+https://devwsccld.uma-soft.ch/view/app/09ec3029-9092-4598-8a0f-46b921c35e64/object/,biz login dev
+https://devwsccld.uma-soft.ch/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object/,crossloom biz login dev
+https://dev.3txpert.com/pze/view/app/06c57dcb-df61-42d2-ad1e-6e1c5e17c6bf/object/,international prod
+https://dev.3txpert.com/pze/view/app/18027c26-f8c8-4ff3-8875-119e480336e6/object,crossloom international prod

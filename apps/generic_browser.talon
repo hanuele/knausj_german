@@ -8,7 +8,7 @@ adresse kopieren | url kopieren:
     edit.copy()
 (nächste [Seite]|vorwärts): browser.go_forward()
 (letzte [Seite]|rückwärts): browser.go_back()
-auf zu {user.website}: browser.go(website)
+#auf zu {user.website}: browser.go(website)
 
 bookmark erstellen: browser.bookmark()
 bookmark tabs: browser.bookmark_tabs()

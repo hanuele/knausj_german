@@ -233,7 +233,7 @@ ausrücken:
 	user.quick_macro_set("edit.paste")
     
 #cut commands
-<user.term_cut> alles:
+<user.term_cut> alles [aus]:
     edit.select_all()
     edit.cut()
     user.quick_macro_set("edit.paste")
