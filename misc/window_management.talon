@@ -58,11 +58,11 @@ ziel <number> <user.window_snap_position>:
     user.move_cursor_to_snap_position_center(number, window_snap_position)
     mouse_click(0)
 
-westen:
+osten:
     key(super-right)
     user.quick_macro_set("key","super-right")
 
-osten:
+westen:
     key(super-left)
     user.quick_macro_set("key","super-left")
 
